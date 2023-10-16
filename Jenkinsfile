@@ -9,7 +9,7 @@ pipeline {
         }
        stage('clone repo') {
             steps {
-                git branch: 'master', url: 'https://github.com/MedBouhdida1/Tp3Jenkins.git'
+                git branch: 'master', url: 'https://github.com/FatenMans/Tp3Jenkins.git'
             }
         }
     
